@@ -1,6 +1,5 @@
 ﻿namespace Lecture02;
 
-
 public record GroupNameRecord(int Course, int Group, int Specialization);
 
 public class GroupName

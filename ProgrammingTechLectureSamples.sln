@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture01", "Lecture01\Lecture01.csproj", "{887392A2-498C-4205-83EC-9F49B1235D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture01", "Lecture01\Lecture01.csproj", "{887392A2-498C-4205-83EC-9F49B1235D2F}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Lecture01FSharp", "Lecture01FSharp\Lecture01FSharp.fsproj", "{87C6D67F-9C76-4AE2-AA38-7672F77F7D68}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Lecture01FSharp", "Lecture01FSharp\Lecture01FSharp.fsproj", "{87C6D67F-9C76-4AE2-AA38-7672F77F7D68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture02", "Lecture02\Lecture02.csproj", "{EE4D77C9-890D-49CA-8EF6-9C245F756A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lecture02", "Lecture02\Lecture02.csproj", "{EE4D77C9-890D-49CA-8EF6-9C245F756A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture04", "Lecture04\Lecture04.csproj", "{0C238E13-64F3-4F49-8166-8822CB622DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EE4D77C9-890D-49CA-8EF6-9C245F756A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE4D77C9-890D-49CA-8EF6-9C245F756A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE4D77C9-890D-49CA-8EF6-9C245F756A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C238E13-64F3-4F49-8166-8822CB622DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C238E13-64F3-4F49-8166-8822CB622DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C238E13-64F3-4F49-8166-8822CB622DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C238E13-64F3-4F49-8166-8822CB622DAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
