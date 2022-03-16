@@ -48,7 +48,7 @@ public class StillShopBut
 
         AssemblyName assemblyName = Assembly.GetExecutingAssembly().GetName();
         AssemblyBuilder assemblyBuilder = AssemblyBuilder.DefineDynamicAssembly(assemblyName, AssemblyBuilderAccess.Run);
-        ModuleBuilder moduleBuilder = assemblyBuilder.DefineDynamicModule(nameof(UnderstoodTheIl));
+        ModuleBuilder moduleBuilder = assemblyBuilder.DefineDynamicModule(nameof(Lecture04));
 
         foreach (Item item in items)
         {
